@@ -25,4 +25,4 @@ def print_diamond():
 
 
 # Call the function to print the diamond
-print_diamond()
+print_diamond() 
