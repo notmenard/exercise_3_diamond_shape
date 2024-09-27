@@ -21,5 +21,6 @@ def print_diamond():
     # Displaying the lower portion of the diamond
     for i in range (n // 2 - 1, -1 , -1):
         print(" " * (n // 2 - i) + "*" * (2 * i + 1))
-        
+
 # Call the function to print the diamond
+print_diamond()
