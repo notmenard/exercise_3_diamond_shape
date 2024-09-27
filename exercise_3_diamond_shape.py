@@ -14,6 +14,9 @@ def print_diamond():
         else:
             break
 
-# Displaying the upper portion of the diamond, top-middle
+    # Displaying the upper portion of the diamond, top-middle
+    for i in range(n // 2 + 1):
+        print(" " * (n // 2 - i) + "*" * (2 * i + 1))
+        
 # Displaying the lower portion of the diamond
 # Call the function to print the diamond
